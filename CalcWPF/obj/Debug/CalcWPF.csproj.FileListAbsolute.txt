@@ -1,0 +1,15 @@
+D:\4 семестр\ООП\Lab6\CalcWPF\bin\Debug\CalcWPF.exe.config
+D:\4 семестр\ООП\Lab6\CalcWPF\bin\Debug\CalcWPF.exe
+D:\4 семестр\ООП\Lab6\CalcWPF\bin\Debug\CalcWPF.pdb
+D:\4 семестр\ООП\Lab6\CalcWPF\obj\Debug\CalcWPF.csprojAssemblyReference.cache
+D:\4 семестр\ООП\Lab6\CalcWPF\obj\Debug\MainWindow.g.cs
+D:\4 семестр\ООП\Lab6\CalcWPF\obj\Debug\App.g.cs
+D:\4 семестр\ООП\Lab6\CalcWPF\obj\Debug\CalcWPF_MarkupCompile.cache
+D:\4 семестр\ООП\Lab6\CalcWPF\obj\Debug\CalcWPF_MarkupCompile.lref
+D:\4 семестр\ООП\Lab6\CalcWPF\obj\Debug\MainWindow.baml
+D:\4 семестр\ООП\Lab6\CalcWPF\obj\Debug\CalcWPF.g.resources
+D:\4 семестр\ООП\Lab6\CalcWPF\obj\Debug\CalcWPF.Properties.Resources.resources
+D:\4 семестр\ООП\Lab6\CalcWPF\obj\Debug\CalcWPF.csproj.GenerateResource.cache
+D:\4 семестр\ООП\Lab6\CalcWPF\obj\Debug\CalcWPF.csproj.CoreCompileInputs.cache
+D:\4 семестр\ООП\Lab6\CalcWPF\obj\Debug\CalcWPF.exe
+D:\4 семестр\ООП\Lab6\CalcWPF\obj\Debug\CalcWPF.pdb
