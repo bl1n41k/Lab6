@@ -7,12 +7,3 @@ D:\4 семестр\ООП\Lab6\CalcLibrary\obj\Debug\netstandard2.0\CalcLibrary
 D:\4 семестр\ООП\Lab6\CalcLibrary\obj\Debug\netstandard2.0\CalcLibrary.dll
 D:\4 семестр\ООП\Lab6\CalcLibrary\obj\Debug\netstandard2.0\CalcLibrary.pdb
 D:\4 семестр\ООП\Lab6\CalcLibrary\obj\Debug\netstandard2.0\CalcLibrary.csprojAssemblyReference.cache
-E:\Учёба\4 семестр\Учебная практика\Lab6\CalcLibrary\bin\Debug\netstandard2.0\CalcLibrary.deps.json
-E:\Учёба\4 семестр\Учебная практика\Lab6\CalcLibrary\bin\Debug\netstandard2.0\CalcLibrary.dll
-E:\Учёба\4 семестр\Учебная практика\Lab6\CalcLibrary\bin\Debug\netstandard2.0\CalcLibrary.pdb
-E:\Учёба\4 семестр\Учебная практика\Lab6\CalcLibrary\obj\Debug\netstandard2.0\CalcLibrary.csprojAssemblyReference.cache
-E:\Учёба\4 семестр\Учебная практика\Lab6\CalcLibrary\obj\Debug\netstandard2.0\CalcLibrary.csproj.CoreCompileInputs.cache
-E:\Учёба\4 семестр\Учебная практика\Lab6\CalcLibrary\obj\Debug\netstandard2.0\CalcLibrary.AssemblyInfoInputs.cache
-E:\Учёба\4 семестр\Учебная практика\Lab6\CalcLibrary\obj\Debug\netstandard2.0\CalcLibrary.AssemblyInfo.cs
-E:\Учёба\4 семестр\Учебная практика\Lab6\CalcLibrary\obj\Debug\netstandard2.0\CalcLibrary.dll
-E:\Учёба\4 семестр\Учебная практика\Lab6\CalcLibrary\obj\Debug\netstandard2.0\CalcLibrary.pdb
