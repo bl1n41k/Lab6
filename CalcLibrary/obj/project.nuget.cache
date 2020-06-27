@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r0tdegTkHgZYQYseXPOs29CncaWgRDvIouXuIyF16YzarX0Z7ua3XTl8tABRz7N5D0Sw7eMwTQyBAklJYeC41w==",
+  "dgSpecHash": "uxGt4dM9FciruJkT6aNy+rgRuEQctKM7GQOPNsfAtOc+xvDt+911lcjkXEvjjghoj//zKZ05abiDZHmYVI697w==",
   "success": true,
-  "projectFilePath": "D:\\4 семестр\\ООП\\Lab6\\CalcLibrary\\CalcLibrary.csproj",
+  "projectFilePath": "E:\\Учёба\\4 семестр\\Учебная практика\\Lab6\\CalcLibrary\\CalcLibrary.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

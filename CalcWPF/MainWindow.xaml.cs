@@ -325,8 +325,14 @@ namespace CalcWPF
                         rightop = (num1 * num2).ToString();
                         break;
                     case "/":
-                        if (num2 != 0)
+                        if (num2 != 0 && rightop[0] != '0')
                             rightop = (num1 / num2).ToString();
+                        else
+                        {
+                            leftop = operation = rightop = "";
+                            textBlock.Text = "0";
+                            MessageBox.Show("Некорректный ввод", "Ошибка!");
+                        }
                         break;
                     case "MOD":
                         if (num2 != 0)
