@@ -21,7 +21,7 @@ namespace CalcLibrary
                 string operation = GetOperation(s)[0];
                 string answer = "";
                 if (operation == "reverse" || operation == "Sqrt" || operation == "division" || operation == "expX" ||
-                operation == "sin" || operation == "cos" || operation == "tg" ||operation == "Sqr" || operation == "n!")
+                operation == "sin" || operation == "Cos" || operation == "tg" ||operation == "Sqr" || operation == "n!")
                     answer = SingleOperation[operation](double.Parse(operands[0])).ToString();
                 else if (operation == "π" || operation == "e")
                     answer = Print(s);
@@ -66,7 +66,7 @@ namespace CalcLibrary
             {
                 { "reverse", (x) => -x  },
                 { "sin", (x) => Math.Sin(x) },
-                { "сos", (x) => Math.Cos(x) },
+                { "Cos", (x) => Math.Cos(x) },
                 { "tg", (x) => Math.Tan(x) },
                 { "Sqr", (x) => Math.Pow(x,2) },
                 { "expX", (x) => Math.Pow(x,Math.E) },

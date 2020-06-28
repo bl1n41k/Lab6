@@ -92,6 +92,24 @@ namespace CalcWPF
                         answer = Calc.DoOperation(answer);
                         break;
                     }
+                case "tg":
+                    {
+                        answer += "tg";
+                        answer = Calc.DoOperation(answer);
+                        break;
+                    }
+                case "cos":
+                    {
+                        answer += "Cos";
+                        answer = Calc.DoOperation(answer);
+                        break;
+                    }
+                case "sin":
+                    {
+                        answer += "sin";
+                        answer = Calc.DoOperation(answer);
+                        break;
+                    }
                 default:
                     {
                         answer += s;

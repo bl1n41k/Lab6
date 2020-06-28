@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Учёба\\4 семестр\\Учебная практика\\Lab6\\CalcLibrary\\CalcLibrary.csproj",
+      "projectUniqueName": "D:\\4 семестр\\ООП\\Lab6\\CalcLibrary\\CalcLibrary.csproj",
       "projectName": "CalcLibrary",
-      "projectPath": "E:\\Учёба\\4 семестр\\Учебная практика\\Lab6\\CalcLibrary\\CalcLibrary.csproj",
+      "projectPath": "D:\\4 семестр\\ООП\\Lab6\\CalcLibrary\\CalcLibrary.csproj",
       "packagesPath": "C:\\Users\\BL1N41K\\.nuget\\packages\\",
-      "outputPath": "E:\\Учёба\\4 семестр\\Учебная практика\\Lab6\\CalcLibrary\\obj\\",
+      "outputPath": "D:\\4 семестр\\ООП\\Lab6\\CalcLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
