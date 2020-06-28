@@ -19,6 +19,7 @@ namespace CalcWPF
                     ((Button)c).Click += Button_Click;
                 }
             }
+            textBlock.Text = "0";  
         }
         private void Button_Click(object sender, RoutedEventArgs e)
         { 
@@ -30,7 +31,10 @@ namespace CalcWPF
             {
                 case "DEL":
                     {
-                        if (answer.Length > 0)
+                        if (answer.Length > 0 && answer[answer.Length - 1] == 'd' || answer.Length > 0 && answer[answer.Length - 1] == ('v'))
+                            for (int i = 0; i<3;i++)
+                            answer = answer.Remove(answer.Length - 1);
+                        else if (answer.Length > 0)
                             answer = answer.Remove(answer.Length - 1);
                         if (answer.Length == 0) answer = "0";
                         break;
@@ -112,9 +116,39 @@ namespace CalcWPF
                     }
                 case "x^y": 
                     {
-                        answer += "^";
+                        if (answer != "" && answer != "0" && textBlock.Text != "Ошибка") answer += "^";
                         break;
                     }
+                case "MOD":
+                    {
+                        if (answer != "" && answer != "0" && textBlock.Text != "Ошибка") answer += "Mod";
+                        break;
+                    }
+                case "DIV":
+                    {
+                        if (answer != "" && answer != "0" && textBlock.Text != "Ошибка") answer += "Div";
+                        break;
+                    }
+                case "+":
+                    {  
+                        if (answer != "" && answer != "0" && textBlock.Text != "Ошибка") answer += "+";
+                        break;
+                    }
+                case "-":
+                    {
+                        if (answer != "" && answer != "0" && textBlock.Text != "Ошибка") answer += "-";
+                        break;
+                    }
+                case "/":
+                    {
+                        if (answer != "" && answer != "0" && textBlock.Text != "Ошибка") answer += "/";
+                        break;
+                    }
+                case "*":
+                    {
+                        if (answer != "" && answer != "0" && textBlock.Text != "Ошибка") answer += "*";
+                        break;
+                    } 
                 default:
                     {
                         answer += s;
