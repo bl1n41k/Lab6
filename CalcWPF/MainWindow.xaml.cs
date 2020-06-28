@@ -70,7 +70,7 @@ namespace CalcWPF
                     }
                 case "n!":
                     {
-                        answer += "!";
+                        answer += "factor";
                         answer = Calc.DoOperation(answer);
                         break;
                     }
