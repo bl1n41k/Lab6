@@ -94,5 +94,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CalcLibrary\CalcLibrary.csproj">
+      <Project>{4d121d62-abf1-4681-a792-346d5efa82ac}</Project>
+      <Name>CalcLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

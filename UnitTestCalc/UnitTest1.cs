@@ -18,7 +18,7 @@ namespace UnitTestCalc
         [TestMethod]
         public void GetOperationTestMethod()
         {
-            String a = Calc.GetOperation("23+4,5");
+            String[] a = Calc.GetOperation("23+4,5");
             Assert.AreEqual("+", a[0].ToString());
         }
         [TestMethod]
