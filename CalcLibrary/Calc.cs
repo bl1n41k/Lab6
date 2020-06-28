@@ -38,8 +38,13 @@ namespace CalcLibrary
 
         static double Factorial(double x)
         {
-            if (x == 0) return 1; 
-            else return x * Factorial(x - 1);  
+            if (x < 0) throw new Exception();
+            int fact = 1;
+            for (int i = 1; i <= x; i++)
+            {
+                fact *= i;
+            }
+            return fact;
         }
         public static string Print(string s)
         {
