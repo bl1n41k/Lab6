@@ -83,7 +83,7 @@ namespace CalcLibrary
                 { "-", (x, y) => x - y },
                 { "*", (x, y) => x * y },
                 { "/", (x, y) => x / y },
-                { "x^y", (x,y) => Math.Pow(x,y) },
+                { "^", (x,y) => Math.Pow(x,y) },
                 { "MOD", (x,y) => x % y },
                 { "DIV", (x,y) => (int)x / (int)y },
             };

@@ -110,6 +110,11 @@ namespace CalcWPF
                         answer = Calc.DoOperation(answer);
                         break;
                     }
+                case "x^y": 
+                    {
+                        answer += "^";
+                        break;
+                    }
                 default:
                     {
                         answer += s;
@@ -121,9 +126,7 @@ namespace CalcWPF
                 if (answer.Length > 1 && answer[1] != ',')
                     answer = answer.Remove(0, 1);
             }
-
             textBlock.Text = answer;
-
         }
     }
 }
