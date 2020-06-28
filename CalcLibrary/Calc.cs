@@ -21,7 +21,7 @@ namespace CalcLibrary
                 string operation = GetOperation(s)[0];
                 string answer = "";
                 if (operation == "reverse" || operation == "Sqrt" || operation == "division" || operation == "expX" ||
-                operation == "sin" || operation == "Cos" || operation == "tg" ||operation == "Sqr" || operation == "factor")
+                operation == "sin" || operation == "Cos" || operation == "tg" || operation == "Sqr" || operation == "factor")
                     answer = SingleOperation[operation](double.Parse(operands[0])).ToString();
                 else if (operation == "π" || operation == "e")
                     answer = Print(s);
@@ -39,12 +39,8 @@ namespace CalcLibrary
         static double Factorial(double x)
         {
             if (x < 0) throw new Exception();
-            int fact = 1;
-            for (int i = 1; i <= x; i++)
-            {
-                fact *= i;
-            }
-            return fact;
+            if (x == 0) return 1;
+            else return x * Factorial(x - 1); 
         }
         public static string Print(string s)
         {
